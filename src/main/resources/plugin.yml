@@ -1,0 +1,19 @@
+name: Ascend
+version: '${project.version}'
+main: me.ziprow.ascend_ability.Main
+api-version: 1.8
+author: Z1proW
+
+commands:
+  ascend:
+    description: Main command for Ascend. Use /ascend help for more info
+    aliases: tpl
+
+permissions:
+  ascend.user:
+    description: Allows player to use the plugin's user features
+    default: true
+
+  ascend.admin:
+    description: Allows player to use the plugin's admin features
+    default: op
